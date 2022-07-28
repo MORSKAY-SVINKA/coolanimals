@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Cormorant SC', serif;
+}
+
+
+body{
+	font-size: 20px;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
+.straus{
+	text-transform: lowercase;
+}
+li{
+	/* padding: 15px; */
+	border: 20px groove orange;
+	font-weight: bold;
+	width: 150px;
+	text-align: center;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+a{
+	text-decoration: none;
+	color:green;
+}
+li:hover{
+	font-size: 30px;
+	background-color: rgb(255, 251, 7);
+}
+.leg{
+	background-image: url(https://www.factroom.ru/wp-content/uploads/2021/06/1620261284_6-oir_mobi-p-yavanskaya-letayushchaya-lyagushka-zhivotn-7.jpg);
+}
+.acso{
+	background-image: url(https://catfishes.ru/wp-content/uploads/2021/05/axolotl5.jpg);
+}
+.str{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJjjOw5WgH_8YloSQG8pe4tvEq0bFzo8Ex4Q&usqp=CAU)
+}
+.leg, .acso, .str{
+	height: 150px;
+	width: 150px;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.flex{
+	display: flex;
+	justify-content: center;
+}
+*{
+	box-sizing: border-box;
+}
+.contener{
+	border: 20px groove orange;
+	width: 1000px;
+	margin: 0px auto;
+}
+h1{
+	text-align: center;
+}
+.about{
+	text-align: center;
+	padding: 40px;
+}
+.acsol{
+	background-image: url(https://aquatoria-shop.ru/image/cache/catalog/fish/aksolotl---albinos-800x800.jpg);
+	height: 500px;
+	width:900px;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	margin: 0 auto;
+	
+}
+
